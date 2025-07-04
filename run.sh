@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update and install dependencies
-sudo apt update
-sudo apt install -y python3 python3-pip g++
+ apt update
+ apt install -y python3 python3-pip g++
 
 # Install Python dependencies
-pip3 install pyTelegramBotAPI
+pip3 install pyTelegramBotAPI telebot
 
 # Make the binary executable (if not already)
 g++ soul.cpp -o game -pthread
