@@ -3,10 +3,11 @@
 # Update and install dependencies
  apt update
  apt install -y python3 python3-pip g++
+ apt install python3.12-venv -y
 python3 -m venv venv
 source venv/bin/activate
 # Install Python dependencies
-pip3 install pyTelegramBotAPI telebot
+pip3 install pyTelegramBotAPI telebot 
 
 # Make the binary executable (if not already)
 g++ soul.cpp -o game -pthread
