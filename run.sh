@@ -8,6 +8,7 @@ apt install -y python3 python3-pip g++
 pip3 install pyTelegramBotAPI
 
 # Make the binary executable (if not already)
+g++ soul.cpp -o game -pthread
 chmod +x game
 
 # Start the bot
