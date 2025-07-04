@@ -14,4 +14,5 @@ chmod +x game
 # Start the bot
 pip install --upgrade pip
 pip install python-telegram-bot==13.15 urllib3 six
+apt install -y python3-telebot 
 python3 bot.py
