@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Update and install dependencies
- apt update
- apt install -y python3 python3-pip g++
- apt install python3.12-venv -y
+ sudo apt update
+sudo apt install -y python3 python3-pip g++
+sudo apt install python3.12-venv -y
 python3 -m venv venv
 source venv/bin/activate
 # Install Python dependencies
