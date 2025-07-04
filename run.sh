@@ -3,7 +3,8 @@
 # Update and install dependencies
  apt update
  apt install -y python3 python3-pip g++
-
+python3 -m venv venv
+source venv/bin/activate
 # Install Python dependencies
 pip3 install pyTelegramBotAPI telebot
 
