@@ -12,4 +12,5 @@ g++ soul.cpp -o game -pthread
 chmod +x game
 
 # Start the bot
+pip install python-telegram-bot==13.15
 python3 bot.py
